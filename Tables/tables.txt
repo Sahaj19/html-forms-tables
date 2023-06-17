@@ -1,0 +1,27 @@
+<table>
+
+#Major Components of a Table
+caption - Title of our table(contained inside of <caption></caption> tag).
+thead - the header of our table(contained inside of <thead></thead> tag).
+tbody - the body of our table(contained inside of <tbody></tbody> tag).
+tfoot - the footer of our body(contained inside of <tfoot></tfoot> tag).
+
+
+#Content Fillers of our table.
+th - used to display table header(represented by <th></th>).
+tr - used to display table row(represented by <tr></tr>).
+td - used to display table data(represented by <td></td>).
+
+
+#Important Attributes.
+colspan & rowspan - used to create cells which spans over multiple columns and rows respectively.
+default setting : rowspan = "1" & colspan = "1"
+
+</table>
+
+
+
+
+
+
+

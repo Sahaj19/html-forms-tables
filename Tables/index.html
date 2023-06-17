@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <!--Example-1 ***************************************-->
+    <table border="black">
+      <caption>
+        Food Menu
+      </caption>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Burger</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Pizza</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Pasta</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>60</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <!--Example-2 **************************************-->
+    <table border="black">
+      <caption>
+        Food Menu
+      </caption>
+      <thead>
+        <tr>
+          <td rowspan="2">Item</td>
+          <td colspan="2">Price</td>
+        </tr>
+        <tr>
+          <td>INR</td>
+          <td>US</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Burger</td>
+          <td>10</td>
+          <td>0.02</td>
+        </tr>
+        <tr>
+          <td>Pizza</td>
+          <td>20</td>
+          <td>0.04</td>
+        </tr>
+        <tr>
+          <td>Pasta</td>
+          <td>30</td>
+          <td>0.03</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td>Total</td>
+        <td>60</td>
+        <td>0.09</td>
+      </tfoot>
+    </table>
+    <hr />
+    <!-- Example-3 *****************************************-->
+    <table border="black">
+      <caption>
+        Let's do it again
+      </caption>
+      <thead>
+        <tr>
+          <td rowspan="2">Gender</td>
+          <td colspan="2">Average</td>
+          <td rowspan="2">Red eyes</td>
+        </tr>
+        <tr>
+          <td>Height</td>
+          <td>weight</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Male</td>
+          <td>1.9</td>
+          <td>0.003</td>
+          <td>40%</td>
+        </tr>
+        <tr>
+          <td>Female</td>
+          <td>1.7</td>
+          <td>0.002</td>
+          <td>43%</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <!-- Example-4**********************************************-->
+  </body>
+</html>
