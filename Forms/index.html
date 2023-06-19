@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- Example-1(types of Input tags)*************************************** -->
+    <form action="/server">
+      <label>Text is default behaviour</label>
+      <input />
+      <div>
+        <label for="text">Enter Normal text</label>
+        <input type="text" id="text" />
+      </div>
+      <div>
+        <label for="password">Enter your Password</label>
+        <input type="password" id="password" />
+      </div>
+      <div>
+        <label for="email">Enter your email</label>
+        <input type="email" id="email" />
+      </div>
+      <div>
+        <label for="number">Enter your number</label>
+        <input type="number" id="number" />
+      </div>
+      <div>
+        <label for="date">Select date</label>
+        <input type="date" id="date" />
+      </div>
+      <div>
+        <label for="color">Pick your color</label>
+        <input type="color" id="color" />
+      </div>
+    </form>
+    <hr />
+    <!-- Example-2(adding placeholder to our form)**************************************************************** -->
+    <form action="/server">
+      <div>
+        <label for="text">Enter your name:</label>
+        <input type="text" id="text" placeholder="Your name goes here..." />
+      </div>
+      <div>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" placeholder="Your email goes here..." />
+      </div>
+      <div>
+        <label for="password">Enter your password:</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Your password goes here..."
+        />
+      </div>
+      <div>
+        <label for="age">Enter your age:</label>
+        <input type="number" id="age" placeholder="Your age goes here.." />
+      </div>
+    </form>
+    <hr />
+    <!-- Example-3(Adding Button Element)******************************************************************* -->
+    <form action="/server">
+      <div>
+        <label for="user">Enter your name:</label>
+        <input type="text" id="user" placeholder="username" />
+      </div>
+      <div>
+        <label for="pass">Enter your password:</label>
+        <input type="password" id="pass" placeholder="password" />
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+        <input type="submit" />
+        <input type="submit" value="Click me" />
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+    <hr />
+    <!-- Example-3(Adding Name Attribute)*********************************************************************** -->
+    <form action="/server">
+      <div>
+        <label for="username">Enter your name:</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter your name"
+          name="YourName"
+        />
+      </div>
+      <div>
+        <label for="password">Enter your password:</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          name="MyPassword"
+        />
+      </div>
+      <button>Submit</button>
+    </form>
+    <hr />
+    <!-- Example-4(Searching directly something on youtube,google,etc through our input box)**************** -->
+    <!-- Google search bot  -->
+    <form action="https://www.google.com/search" target="_blank">
+      <div>
+        <label for="username">Search on google:</label>
+        <input type="text" id="username" placeholder="Google Search" name="q" />
+      </div>
+      <button>Search</button>
+    </form>
+    <hr />
+    -->
+    <!-- youtube search bot -->
+    <form action="https://www.youtube.com/results" target="_blank">
+      <div>
+        <label for="username">Search on youtube:</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Youtube search"
+          name="search_query"
+        />
+      </div>
+      <button>Search</button>
+    </form>
+    <hr />
+    <!-- Example-5(Exploring Checkboxes)*************************************************************** -->
+    <form action="/server">
+      <p>choose Your favourite dish:</p>
+      <div>
+        <input type="checkbox" id="burger" name="selectedDish" value="burger" />
+        <label for="burger">Burger</label>
+      </div>
+      <div>
+        <input type="checkbox" id="pizza" name="selectedDish" value="pizza" />
+        <label for="pizza">Pizza</label>
+      </div>
+      <button>submit</button>
+    </form>
+    <hr />
+    <!-- Example-6(Exploring Radio type)******************************************************************* -->
+    <form action="/server">
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+      </div>
+      <div>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Others</label>
+      </div>
+      <button>Submit</button>
+    </form>
+    <hr />
+    <!-- Example-7(Exploring Dropdowns)********************************************************************* -->
+    <form action="/server">
+      <label for="meal">Select your favourite meal:</label>
+      <select name="selectedMeal" id="meal">
+        <option value="">Choose from the below given options</option>
+        <option value="burger">Burger</option>
+        <option value="pizza">Pizza</option>
+        <option value="pasta">Pasta</option>
+        <option value="rolls">Rolls</option>
+        <option value="soup">Soup</option>
+      </select>
+      <button>Submit</button>
+    </form>
+    <hr />
+    <!-- Example-8(Exploring range type)********************************************************* -->
+    <form action="/server">
+      <label for="volume">Set your desired volume:</label>
+      <input
+        type="range"
+        id="volume"
+        min="0"
+        max="10"
+        step="1"
+        name="desiredVolume"
+      />
+      <button>Set it!</button>
+    </form>
+    <hr />
+    <!-- Example-9(Exploring textareas)****************************************************************** -->
+    <form action="/server">
+      <label for="feedback">Please give your feedback:</label>
+      <textarea
+        name="feedback"
+        id="feedback"
+        placeholder="Write your feedback here..."
+      ></textarea>
+      <button>submit</button>
+    </form>
+  </body>
+</html>

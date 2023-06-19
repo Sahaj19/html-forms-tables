@@ -1,0 +1,14 @@
+<forms>
+
+action attribute - Where the form data should be sent, is the main goal of this attribute.
+
+#Major components of a form:-
+a) action = "/server" or "/action" .... since we dont have anything in the backend yet(no database is available).
+b) label's for and input's id should be same in order to connect them.
+c) Generally we use same name for for,id and type.
+d)name attribute - our information will be submitted in the form of name/value pair.
+(i.e name = value)
+e)Checkboxes - on if clicked.
+f)default rows = 2 and default columns = 10, while creating a textarea!!
+
+</forms>
